@@ -8,12 +8,3 @@ config :ex_demo, ExDemoWeb.Endpoint,
 
 # Print only warnings and errors during test
 config :logger, level: :warn
-
-# Configure your database
-config :ex_demo, ExDemo.Repo,
-  adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
-  database: "ex_demo_test",
-  hostname: "localhost",
-  pool: Ecto.Adapters.SQL.Sandbox

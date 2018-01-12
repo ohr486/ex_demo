@@ -36,7 +36,7 @@ defmodule ExDemoWeb.Endpoint do
   plug Plug.Session,
     store: :cookie,
     key: "_ex_demo_key",
-    signing_salt: "ap6KS1tS"
+    signing_salt: "mgsEHN2V"
 
   plug ExDemoWeb.Router
 
