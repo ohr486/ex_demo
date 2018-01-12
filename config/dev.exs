@@ -8,11 +8,11 @@ use Mix.Config
 # with brunch.io to recompile .js and .css sources.
 config :ex_demo, ExDemoWeb.Endpoint,
   http: [port: 80],
-  debug_errors: true,
-  code_reloader: true,
-  check_origin: false,
-  watchers: [node: ["node_modules/brunch/bin/brunch", "watch", "--stdin",
-                    cd: Path.expand("../assets", __DIR__)]]
+  url: [host: "localhost", port: 80],
+  server: true,
+  root: ".",
+  version: Mix.Project.config[:version],
+  check_origin: false
 
 # ## SSL Support
 #
