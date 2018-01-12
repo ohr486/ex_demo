@@ -7,7 +7,7 @@ use Mix.Config
 
 # Configures the endpoint
 config :ex_demo, ExDemoWeb.Endpoint,
-  url: [host: "localhost"],
+  url: [host: "13.230.100.46"],
   secret_key_base: "AL9mCr3UDPaHIaY4VoOhdnPp7RGc64EwSHUSicmH5KUz9XTlBUhf5Po4z1E4D4Li",
   render_errors: [view: ExDemoWeb.ErrorView, accepts: ~w(html json)],
   pubsub: [name: ExDemo.PubSub,

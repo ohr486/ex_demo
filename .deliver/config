@@ -3,12 +3,12 @@ APP="ex_demo"
 AUTO_VERSION=commit-count
 
 # BUILDサーバー
-BUILD_HOST=xxx.xxx.xxx.xxx
+BUILD_HOST=13.230.100.46
 BUILD_USER=ec2-user
 BUILD_AT=/home/ec2-user/build
 
 # STAGING
-STAGING_HOSTS=""
+STAGING_HOSTS="13.230.100.46"
 STAGING_USER=ec2-user
 TEST_AT=/var/www
 
