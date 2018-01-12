@@ -1,4 +1,4 @@
-defmodule ExDemoWeb.PageController do
+defmodule ExDemoWeb.PingController do
   use ExDemoWeb, :controller
 
   def index(conn, _params) do
